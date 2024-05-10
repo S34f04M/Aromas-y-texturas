@@ -1,0 +1,110 @@
+body{
+    background-color: #e6ebe0;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-container{
+    background-color: #ed6a5a;
+    content: 2rem;
+    padding: 1rem;
+    margin: -0.5rem;
+    color: #f4f1bb;
+
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display:inline-flex;
+ 
+}
+
+.muffin img{
+    height: 4rem;
+}
+.recetas{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #f4f1bb;
+}
+.container ul{
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    
+}
+
+.container a{
+    color: #f4f1bb;
+}
+nav{
+    display: flex;
+ }
+
+.barra ul{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+}
+
+.inicio_ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brownie{
+    border-radius: 1rem;
+    border: #9bc1bc solid;
+    background-color: #9bc1bc;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+.vainilla{
+    padding: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:oblique;
+}
+
+@media (max-width: 768px) {
+    .menu-container{
+        background-color: blue;
+        content: 2rem;
+        padding: 1rem;
+        margin: -0.5rem;
+        color: #f4f1bb;}
+
+}
+
+/* Ocultar el checkbox */
+#check {
+    display: none;
+  }
+  
+  /* Estilos del botón de hamburguesa */
+  .checkbtn {
+    cursor: pointer;
+  }
+  
+  /* Estilos del menú desplegable */
+  .menu {
+    display: none;
+  }
+  
+  /* Mostrar el menú desplegable cuando el checkbox está marcado */
+  #check:checked + .menu {
+    display: block;
+  }
